@@ -1,18 +1,24 @@
-# FS Soluções
+# Portal FS
 
-Site institucional da **FS Soluções**, marca principal de um ecossistema de ferramentas digitais para pequenos empreendedores, prestadores de serviço e empresas.
+Site institucional e repositório mestre do ecossistema **Portal FS**.
+
+O Portal FS centraliza a apresentação dos produtos, os padrões compartilhados, as decisões técnicas, o roadmap e as auditorias importantes. O código de cada plataforma pode permanecer em repositórios independentes, mas a documentação estratégica deve ser preservada aqui.
 
 ## Posicionamento
 
 **Tecnologia para transformar negócios.**
 
-A FS Soluções desenvolve sistemas simples, profissionais e acessíveis para organizar processos, melhorar o atendimento e ajudar pequenos negócios a crescer.
+Sistemas simples, profissionais e acessíveis para pequenos empreendedores, prestadores de serviço e empresas.
 
-## Soluções do ecossistema
+## Produtos principais
 
-- FS Orçamentos
 - FS Delivery
 - FS Fit
+- FS Orçamentos
+- Portal FS
+
+## Outras soluções planejadas
+
 - FS Guinchos
 - FS Reserva
 - FS Checklist
@@ -21,23 +27,53 @@ A FS Soluções desenvolve sistemas simples, profissionais e acessíveis para or
 - FS Assinaturas
 - FS Links
 
-## Tecnologias
+## Documentação mestre
+
+A base consolidada de conhecimento do ecossistema está em:
+
+- [`docs/DOCUMENTACAO_GERAL.md`](docs/DOCUMENTACAO_GERAL.md)
+
+Ela registra:
+
+- arquitetura e tecnologias;
+- padrões de HTML, CSS e JavaScript;
+- identidade visual;
+- produtos e módulos;
+- autenticação e segurança;
+- integrações e pagamentos;
+- deploy e operação;
+- auditorias;
+- decisões técnicas;
+- backlog inicial;
+- política de preservação antes de apagar conversas antigas.
+
+## Regra de preservação
+
+O histórico de conversas não é a fonte permanente de verdade. Decisões relevantes, auditorias, integrações, mudanças estruturais e pendências devem ser transferidas para arquivos Markdown deste repositório.
+
+Nunca versionar senhas, tokens, chaves privadas, service role keys ou dados bancários sensíveis.
+
+## Tecnologias do portal
 
 - HTML5
 - CSS3
 - JavaScript
 - Layout responsivo
+- GitHub
+- Vercel
 
-## Estrutura
+## Estrutura atual
 
 ```text
-FSSolucoes/
+PortalFS/
 ├── index.html
 ├── assets/
 │   ├── css/
 │   │   └── style.css
 │   └── js/
 │       └── main.js
+├── docs/
+│   └── DOCUMENTACAO_GERAL.md
 └── README.md
 ```
 
